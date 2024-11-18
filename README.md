@@ -82,9 +82,11 @@ This project serves as a platform for managing a library's catalog, member accou
 2. **Member**: Searches for books, borrows and returns them, views their borrowing history, and manages profile and notifications.
 
 ## Technology Stack
+- **Maven Project** using Eclipse IDEA 
+- **Pom.xml**   dependancy 
 - **Frontend**: HTML, CSS, JavaScript
-- **Backend**: [Specify framework/language, e.g., Node.js, Django, etc.]
-- **Database**: [Specify database, e.g., MySQL, MongoDB, etc.]
+- **Backend**:  JDK, Java (with suitable frameworks, JSP for server-side rendering)
+- **Database**: Mysql, MongoDB, 
 - **Notifications**: Email/SMS integration (optional)
 
 
