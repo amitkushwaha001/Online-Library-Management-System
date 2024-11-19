@@ -87,8 +87,8 @@ This project is an Online Library Management System designed to help library sta
 2. **Member**: Searches for books, borrows and returns them, views their borrowing history, and manages profile and notifications.
 
 ## Technology Stack
-- **Maven Project** using Eclipse IDEA 
-- **Pom.xml**   dependancy 
+- **Maven Project** To manage dependencies and build the project.
+- **Pom.xml**   
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**:  JDK, Java (with suitable frameworks, JSP for server-side rendering)
 - **Database**: Mysql, MongoDB, 
@@ -100,7 +100,7 @@ A clear repository structure ensures maintainability and ease of navigation. Her
 - library-management-system/  
 ├── src/  
 │   ├── main/  
-│   │   ├── java/  
+│   │   ├── java1/  
 │   │   │   ├── com.library/  
 │   │   │   │   ├── dao/          # Data Access Objects for DB operations  
 │   │   │   │   ├── models/       # Entity classes  
@@ -115,7 +115,28 @@ A clear repository structure ensures maintainability and ease of navigation. Her
 ├── pom.xml                         # Maven configuration  
 ├── .gitignore                      # Ignored files  
 ├── LICENSE                         # Project license  
-└── docs/                           # Additional documentation  
+└── docs/                           # Additional documentation
+
+- ## Setup Instructions
+1. Clone the Repository
+2. git clone https://github.com/amitkushwaha001/Online-Library-Management-System.git  
+cd Online-Library-Management-System
+
+3. Set Up the Database
+Start MySQL Server
+
+Create the Database
+Log in to your MySQL server and create the database: CREATE DATABASE library_management;  
+
+## Update the Database Configuration
+Modify the db.properties file located in src/main/resources with your MySQL credentials: 
+
+-db.url=jdbc:mysql://localhost:3306/OnlineLibraryManagement 
+-db.username=root  
+-db.password=Amit@4577  
+
+
+
 
 
 
