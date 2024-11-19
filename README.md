@@ -13,10 +13,15 @@ The Online Library Management System aims to facilitate library staff in managin
 3. [User Types](#user-types)
 
 4. [Technology Stack](#technology-stack)
+ 
+5. [ Repository Structure ]
+
 
 
 ## Project Description
-This project serves as a platform for managing a library's catalog, member accounts, and book transactions. Librarians can efficiently manage books, users, and transactions, while members can search for, borrow, and return books, view their borrowing history, and receive notifications about due dates and new arrivals.
+This project is an Online Library Management System designed to help library staff and members manage books, transactions, and notifications effectively. It offers functionalities such as book search, borrowing, returning, profile management, and more, all wrapped in a user-friendly dashboard.
+
+
 
 ## Features
 
@@ -88,6 +93,30 @@ This project serves as a platform for managing a library's catalog, member accou
 - **Backend**:  JDK, Java (with suitable frameworks, JSP for server-side rendering)
 - **Database**: Mysql, MongoDB, 
 - **Notifications**: Email/SMS integration (optional)
+
+- ## Repository Structure
+A clear repository structure ensures maintainability and ease of navigation. Here's a suggested structure for your project
+
+- library-management-system/  
+├── src/  
+│   ├── main/  
+│   │   ├── java/  
+│   │   │   ├── com.library/  
+│   │   │   │   ├── dao/          # Data Access Objects for DB operations  
+│   │   │   │   ├── models/       # Entity classes  
+│   │   │   │   ├── services/     # Business logic and services  
+│   │   │   │   └── controllers/  # REST controllers or API endpoints  
+│   └── resources/  
+│       ├── application.properties # Spring configuration  
+│       └── db.properties          # Database credentials  
+├── sql/  
+│   └── library_schema.sql          # SQL script to set up the database  
+├── README.md                       # Project documentation  
+├── pom.xml                         # Maven configuration  
+├── .gitignore                      # Ignored files  
+├── LICENSE                         # Project license  
+└── docs/                           # Additional documentation  
+
 
 
 
