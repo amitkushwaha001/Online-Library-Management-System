@@ -14,7 +14,7 @@ The Online Library Management System aims to facilitate library staff in managin
 
 4. [Technology Stack](#technology-stack)
  
-5. Repository Structure 
+5. [Repository Structure] 
 
 
 
@@ -126,7 +126,7 @@ cd Online-Library-Management-System
 Start MySQL Server
 
 Create the Database
-Log in to your MySQL server and create the database: CREATE DATABASE library_management;  
+Log in to your MySQL server and create the database: CREATE DATABASE OnlineLibraryManagement;  
 
 ## Update the Database Configuration
 Modify the db.properties file located in src/main/resources with your MySQL credentials: 
