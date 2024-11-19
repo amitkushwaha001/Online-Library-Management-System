@@ -14,7 +14,7 @@ The Online Library Management System aims to facilitate library staff in managin
 
 4. [Technology Stack](#technology-stack)
  
-5. [ Repository Structure ]
+5. Repository Structure 
 
 
 
